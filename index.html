@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CS Major Portfolio - Bamboo Forest Theme</title>
+  <!-- Google Material Icons -->
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+  <!-- Google Fonts: Inter for clean modern typography -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <a
+      href="https://github.com/username"
+      aria-label="Profile Picture Link to GitHub"
+      class="profile-pic"
+      target="_blank"
+      rel="noopener noreferrer"
+      tabindex="0"
+    >
+      <img
+        src="https://placehold.co/160x160/5b8362/a8d5ba?text=Profile+Picture"
+        alt="CS Major Profile Picture, circular photo representing the user"
+      />
+    </a>
+  </header>
+
+  <main class="container" id="root">
+    <!-- Blank container for Achievements -->
+    <section aria-labelledby="achievements-title">
+      <h2 id="achievements-title">Achievements</h2>
+      <ul class="achievements-list" id="achievements-list">
+        <!-- Insert achievement items here -->
+      </ul>
+    </section>
+
+    <!-- Blank container for Projects -->
+    <section aria-labelledby="projects-title" class="projects-container">
+      <h2 id="projects-title">Projects</h2>
+      <div class="projects-carousel" role="list" aria-label="Project carousel" id="projects-carousel">
+        <!-- Insert project cards here -->
+      </div>
+    </section>
+
+    <!-- GitHub Commit Stats -->
+    <section aria-label="GitHub Commit Stats" class="github-stats" tabIndex="0" id="github-stats">
+      <!-- GitHub stats data will load here -->
+    </section>
+  </main>
+
+  <footer aria-label="Developer platform links footer">
+    <div class="dev-platforms-footer" aria-live="polite" aria-atomic="true" aria-relevant="additions removals">
+      <!-- Developer platform links go here. Insert your links here. -->
+      <p style="color:#3f6647; font-weight: 600;">Footer placeholder - developer platform links go here</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+  <script src="https://unpkg.com/babel-standalone@6.26.0/babel.min.js" crossorigin></script>
+  <script type="text/babel" src="app.js"></script>
+</body>
+</html>
